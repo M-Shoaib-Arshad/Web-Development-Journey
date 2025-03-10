@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    
+</head>
+<body>
+    
+<!-- Heading -->
+<header style="text-align: center ;" >
+    <style>
+        header{
+            border: 3px double rgb(194, 132, 40);
+        }
+    </style>
+    <h1 style="background-color: rgba(228, 171, 15, 0.555); ">
+      <i> <q> <b style="color: rgba(35, 61, 85, 0.959);" style="font-family: fantasy;"> Registration Form </b> </q>
+    </h1>
+</header>
+<!-- Main Body -->
+<main style="background-color: rgba(228, 180, 22, 0.575);">
+   
+    <form action="?action.php">
+        <style>
+            form{
+                border: 3px double rgba(194, 132, 40, 0.76);
+            }
+        </style>
+<!-- Name & Password -->
+    <label> Enter Name </label>
+    <br>
+    <input type="text" placeholder="UserName" required>
+    <br><br>
+    <label >Password</label>
+    <br>
+    <input type="password" placeholder="password" required>
+    <br><br>
+
+<!-- Email -->
+    <label for="Email">Enter E-mail</label>
+    <br>
+    <input type="email" id="Email" name="Email" placeholder="ABC@gmail.com" required>
+    <br><br>
+
+<!-- Gender -->
+    <label for="gender">Select Gender </label>
+    <br>
+
+    <select name="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Prefer Not to Answer">Prefer not to Answer</option>
+    </select>
+    <br><br>
+
+
+
+<!-- Date -->
+    <label for="date">Date of Birth</label>
+    <br>
+    <input type="date" id="date" name="date">
+    <br><br>
+
+<!-- Education -->
+    <label for="Education">Qualification</label><br>
+    <input type="radio" value="Matric" name="Education1">Matric
+    <input type="radio" value="Intermediate" name="Education2">Intermediate
+    <br><br>
+    <label for="file">Other Qualifications</label><br>
+    <input type="file">
+    <br><br>
+    
+
+<!-- Select Class -->
+    <label>Select Course</label><br>
+    <label for="class">
+    <input type="Radio" value="Web Development" name="class">Web Development
+    </label>
+    
+    <label for="class">
+    <input type="Radio" value="App Development" name="class">App Development
+    </label><br>
+
+    <label for="class">
+        <input type="Radio" value="Graphic Design" name="class">Graphic Design
+        </label>
+    <br><br>
+
+<!-- Time -->
+    <label for="Time">Select Time</label>
+    <br>
+    <input type="time" id="Time" name="Time">
+    <br><br>
+<footer>
+<!-- Signup Label -->
+    <input type="submit" value="Sign up" ><br>
+</footer>
+
+</form>
+</main>
+</body>
+</html>
