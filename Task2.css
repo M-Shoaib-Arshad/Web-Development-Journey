@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    padding-top: 5%; 
+}
+body{
+    background-color: whitesmoke;
+}
+
+.b1{
+    background-color: lightcoral;
+    border: 1px dotted black;
+    width: 300px;
+    text-align: center;
+    margin-left: 38%;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    outline-style: solid;
+    outline-offset: 8px;
+}
+
+.b2{
+    margin-top: 5%;
+    background-color: powderblue;
+    border: 1px dotted black;
+    width: 45%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.b3{
+    margin-top: 5%;
+    background-color: rgb(176, 230, 188);
+    border: 1px dotted black;
+    width: 45%;
+    text-align: center;
+    display: inline-block;
+}
+
+.b4{
+    border: black 2px solid;
+    padding-bottom: 18PX ;
+    border-width: thin;
+    margin-top: 18px;
+    width: 600px ;
+    margin-left: 25%;
+    outline-style: solid;
+    outline-width: -10%;
+    align-content:center
+}
+

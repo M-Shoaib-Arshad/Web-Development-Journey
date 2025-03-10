@@ -1,0 +1,40 @@
+h1{
+    color: rgba(53, 19, 175, 0.87);
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h4{
+    color: aliceblue;
+}
+p{
+    color: white;
+    border-top: dotted;
+}
+h3{
+    text-align: center;
+    font-size:xx-large;
+    color: rgb(250, 84, 139);
+}
+
+
+.b1{
+    background-color: rgba(53, 19, 175, 0.87);
+    border: 1px dotted black;
+    width: 35%;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 13%;
+}
+
+.b2{
+    background-color: rgb(250, 84, 139);
+    border: 1px dotted black;
+    width: 35%;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+}
+
